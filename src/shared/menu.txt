@@ -1,0 +1,60 @@
+//                                                     <h5>Latte</h5>
+//                                                     <h5>6.00</h5>
+//                                                     <h5>Mocha</h5>
+//                                                     <h5>6.00</h5>
+//                                                     <h5>Drip Coffee</h5>
+//                                                     <h5>3.00</h5>
+//                                                     <h5>Iced Coffee</h5>
+//                                                     <h5>Cold Brew</h5>
+//                                                     <h5>5.50</h5>
+//                                                     <h5>Iced Tea</h5>
+//                                                     <h5>4.50</h5>
+//                                                     <h5>Matcha Latte</h5>
+//                                                     <h5>6.50</h5>
+//                                                     <h5>Chai Latte</h5>
+//                                                     <h5>5.50</h5>
+//                                                     <h5>Hot Chocolate</h5>
+//                                                     <h5>3.50</h5>
+//             ],
+//                                                 <h3>Food</h3>
+//                                         <h5>Breakfast Sandwich</h5>
+//                                                     <h5>8.00</h5>
+//                                                     <p>Eggs served on a house made english muffin, cheddar and bacon, sausage or spinach</p>
+//                                                     <h5>Biscuits and Gravy</h5>
+//                                                     <h5>9.00</h5>
+//                                                     <p>House made biscuits with pork sausage gravy</p>
+//                                                     <h5>Smoked Salmon Bagel</h5>
+//                                                     <h5>7.00</h5>
+//                                                     <p>Toasted bagel with cream cheese and locally caught smoked salmon</p>
+//                                                     <h5>Breakfast Sausage Quiche</h5>
+//                                                     <h5>9.00</h5>
+//                                                     <p>Sausage and egg mixture with gruyere and white cheddar in a flaky crust</p>
+//                                                     <h5>Walnut Cranberry Apple Salad</h5>
+//                                                     <h5>12.00</h5>
+//                                                     <p>Greens served with walnuts, dried cranberries, apples, goat cheese and a pear vinaigrette</p>
+//                                                     <h5>Lemon Chicken Salad</h5>
+//                                                     <h5>12.00</h5>
+//                                                     <p>Chicken Breast, Spinach, Avocado, Mozzarella, Sunflower Seeds and Lemon Vinaigrette</p>
+//                                                     <h5>Avocado Toast</h5>
+//                                                     <h5>8.00</h5>
+//                                                     <p>Whole wheat multi-grain toast with smashed avocado, goat cheese, olive oil, salt and pepper</p>
+//                                                 <h3>Pastries</h3>
+//                                                     <h5>Scone</h5>
+//                                                     <h5>2.25</h5>
+//                                                     <h5>Blueberry Scone</h5>
+//                                                     <h5>2.25</h5>
+//                                                     <h5>Blueberry Muffin</h5>
+//                                                     <h5>2.25</h5>
+//                                                     <h5>Lemon Poppyseed Muffin</h5>
+//                                                     <h5>2.25</h5>
+//                                                     <h5>Butter Croissant</h5>
+//                                                     <h5>2.25</h5>
+//                                                     <h5>Bear Claw</h5>
+//                                                     <h5>2.50</h5>
+//                                                     <h5>Cream Cheese Danish</h5>
+//                                                     <h5>2.50</h5>
+//                                                     <h5>Coffee Cake</h5>
+//                                                     <h5>2.50</h5>
+//                                                     <h5>Banana Bread</h5>
+//                                                     <h5>2.50</h5>
+//
