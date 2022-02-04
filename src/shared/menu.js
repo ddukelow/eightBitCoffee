@@ -63,24 +63,7 @@ export const MENU = [
     {
         id:1,
         category: 'Food',
-        item: [
-            //                                                      
-//                                                     Smoked Salmon Bagel
-//                                                     7.00
-//                                                     Toasted bagel with cream cheese and locally caught smoked salmon
-//                                                     Breakfast Sausage Quiche
-//                                                     9.00
-//                                                     Sausage and egg mixture with gruyere and white cheddar in a flaky crust
-//                                                     Walnut Cranberry Apple Salad
-//                                                     12.00
-//                                                     Greens served with walnuts, dried cranberries, apples, goat cheese and a pear vinaigrette
-//                                                     Lemon Chicken Salad
-//                                                     12.00
-//                                                     Chicken Breast, Spinach, Avocado, Mozzarella, Sunflower Seeds and Lemon Vinaigrette
-//                                                     Avocado Toast
-//                                                     8.00
-//                                                     Whole wheat multi-grain toast with smashed avocado, goat cheese, olive oil, salt and pepper
-
+        item: [                                                     
             {
                 id:0,
                 title: 'Breakfast Sandwich',
@@ -95,101 +78,80 @@ export const MENU = [
             },
             {
                 id:2,
-                title: 'Latte',
-                price: '6.00',
-                description: ''
+                title: 'Smoked Salmon Bagel',
+                price: '7.00',
+                description: 'Toasted bagel with cream cheese and locally caught smoked salmon'
             },
             {
                 id:3,
-                title: 'Mocha',
-                price: '6.00',
-                description: ''
+                title: 'Breakfast Sausage Quiche',
+                price: '9.00',
+                description: 'Sausage and egg mixture with gruyere and white cheddar in a flaky crust'
             },
             {
                 id:4,
-                title: 'Drip Coffee',
-                price: '3.00',
-                description: ''
+                title: 'Walnut Cranberry Apple Salad',
+                price: '12.00',
+                description: 'Greens served with walnuts, dried cranberries, apples, goat cheese and a pear vinaigrette'
             },
             {
                 id:5,
-                title: 'Iced Coffee',
-                price: '5.00',
-                description: ''
+                title: 'Lemon Chicken Salad',
+                price: '12.00',
+                description: 'Chicken Breast, Spinach, Avocado, Mozzarella, Sunflower Seeds and Lemon Vinaigrette'
             },
             {
                 id:6,
-                title: 'Cold Brew',
-                price: '5.50',
-                description: ''
+                title: 'Avocado Toast',
+                price: '8.00',
+                description: 'Whole wheat multi-grain toast with smashed avocado, goat cheese, olive oil, salt and pepper'
+            }
+        ]
+    },
+    {
+        id:2,
+        category: 'Pastries',
+        item: [                                                     
+            {
+                id:0,
+                title: 'Scone',
+                price: '2.25',
+            },
+            {
+                id:1,
+                title: 'Blueberry Scone',
+                price: '2.25',
+            },
+            {
+                id:2,
+                title: 'Blueberry Muffin',
+                price: '2.25',
+            },
+            {
+                id:3,
+                title: 'Lemon Poppyseed Muffin',
+                price: '2.25',
+            },
+            {
+                id:4,
+                title: 'Butter Croissant',
+                price: '2.25',
+            },
+            {
+                id:5,
+                title: 'Bear Claw',
+                price: '2.50',
+            },
+            {
+                id:6,
+                title: 'Cream Cheese Danish',
+                price: '2.50',
             },
             {
                 id:7,
-                title: 'Iced Tea',
-                price: '4.50',
-                description: ''
-            },
-            {
-                id:8,
-                title: 'Matcha Latte',
-                price: '6.50',
-                description: ''
-            },
-            {
-                id:9,
-                title: 'Chai Latte',
-                price: '5.50',
-                description: ''
-            },
-            {
-                id:10,
-                title: 'Hot Chocolate',
-                price: '3.50',
-                description: ''
+                title: 'Banana Bread',
+                price: '2.50',
             }
         ]
     }
 ];
-
-
-
-//                                                      Breakfast Sandwich
-//                                                     8.00
-//                                                     Eggs served on a house made english muffin, cheddar and bacon, sausage or spinach
-//                                                     Biscuits and Gravy
-//                                                     9.00
-//                                                     House made biscuits with pork sausage gravy
-//                                                     Smoked Salmon Bagel
-//                                                     7.00
-//                                                     Toasted bagel with cream cheese and locally caught smoked salmon
-//                                                     Breakfast Sausage Quiche
-//                                                     9.00
-//                                                     Sausage and egg mixture with gruyere and white cheddar in a flaky crust
-//                                                     Walnut Cranberry Apple Salad
-//                                                     12.00
-//                                                     Greens served with walnuts, dried cranberries, apples, goat cheese and a pear vinaigrette
-//                                                     Lemon Chicken Salad
-//                                                     12.00
-//                                                     Chicken Breast, Spinach, Avocado, Mozzarella, Sunflower Seeds and Lemon Vinaigrette
-//                                                     Avocado Toast
-//                                                     8.00
-//                                                     Whole wheat multi-grain toast with smashed avocado, goat cheese, olive oil, salt and pepper
-//                                                 Pastries
-//                                                     Scone
-//                                                     2.25
-//                                                     Blueberry Scone
-//                                                     2.25
-//                                                     Blueberry Muffin
-//                                                     2.25
-//                                                     Lemon Poppyseed Muffin
-//                                                     2.25
-//                                                     Butter Croissant
-//                                                     2.25
-//                                                     Bear Claw
-//                                                     2.50
-//                                                     Cream Cheese Danish
-//                                                     2.50
-//                                                     Coffee Cake
-//                                                     2.50
-//                                                     Banana Bread
-//                                                     2.50
