@@ -5,6 +5,7 @@ class MenuItem extends Component {
         super(props);
     }
 
+
     menuSlot(items) {
         return(
             <div className="row">
@@ -19,48 +20,61 @@ class MenuItem extends Component {
                                             <div key={singleItem.id} className='row'>
                                                 <div className='col-md-4'>
                                                     <div className="container">
-                                                        <div className='row'>
-                                                            <div className='col-8 text-left'>
-                                                                {singleItem.title}
+                                                        {(singleItem.colTestIndex === "1") ?
+                                                            <div>
+                                                                <div className='row'>
+                                                                    <div className='col-8 text-left'>
+                                                                        {singleItem.title}
+                                                                    </div>
+                                                                    <div className='col-4 text-right'>
+                                                                        {singleItem.price}                                                
+                                                                    </div>
+                                                                </div>
+                                                                <div className='row'>
+                                                                    <div className='col-12 text-left'>
+                                                                        {singleItem.description}
+                                                                    </div>
+                                                                </div>
                                                             </div>
-                                                            <div className='col-4 text-right'>
-                                                                {singleItem.price}                                                
+                                                            :
+                                                            null}
+                                                    </div>
+                                                </div>
+                                                <div className='col-md-4'>
+                                                    <div className="container">
+                                                    {(singleItem.colTestIndex === "2") ?
+                                                            <div>
+                                                                <div className='row'>
+                                                                    <div className='col-8 text-left'>
+                                                                        {singleItem.title}
+                                                                    </div>
+                                                                    <div className='col-4 text-right'>
+                                                                        {singleItem.price}                                                
+                                                                    </div>
+                                                                </div>
+                                                                <div className='row'>
+                                                                    <div className='col-12 text-left'>
+                                                                        {singleItem.description}
+                                                                    </div>
+                                                                </div>
                                                             </div>
-                                                            <br />
-                                                            <div className='col-12 text-left'>
-                                                                {singleItem.description}
-                                                            </div>
-                                                        </div>
+                                                            :
+                                                            null}
                                                     </div>
                                                 </div>
                                                 <div className='col-md-4'>
                                                     <div className="container">
                                                         <div className='row'>
                                                             <div className='col-8 text-left'>
-                                                                {singleItem.title}
+                                                                {(singleItem.colTestIndex === "3") ? singleItem.title:null}
                                                             </div>
                                                             <div className='col-4 text-right'>
-                                                                {singleItem.price}                                                
-                                                            </div>
-                                                            <br />
-                                                            <div className='col-12 text-left'>
-                                                                {singleItem.description}
+                                                                {(singleItem.colTestIndex === "3") ? singleItem.price:null}                                                
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                                <div className='col-md-4'>
-                                                    <div className="container">
                                                         <div className='row'>
-                                                            <div className='col-8 text-left'>
-                                                                {singleItem.title}
-                                                            </div>
-                                                            <div className='col-4 text-right'>
-                                                                {singleItem.price}                                                
-                                                            </div>
-                                                            <br />
                                                             <div className='col-12 text-left'>
-                                                                {singleItem.description}
+                                                                {(singleItem.colTestIndex === "3") ? singleItem.description:null}
                                                             </div>
                                                         </div>
                                                     </div>
