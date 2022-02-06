@@ -9,84 +9,95 @@ class MenuItem extends Component {
     menuSlot(items) {
         return(
             <div className="row">
-                <div className="col">
                     {items.map( item => 
-                        <div className='container'>
-                            <div className='row'>
-                                <div className="col-md-12" key={item.id}>
-                                    <h3>{item.category}</h3>
-                                    <div className="container">
-                                        {item.item.map(singleItem =>
-                                            <div key={singleItem.id} className='row'>
-                                                <div className='col-md-4'>
-                                                    <div className="container">
-                                                        {(singleItem.colTestIndex === "1") ?
-                                                            <div>
-                                                                <div className='row'>
-                                                                    <div className='col-8 text-left'>
-                                                                        {singleItem.title}
-                                                                    </div>
-                                                                    <div className='col-4 text-right'>
-                                                                        {singleItem.price}                                                
-                                                                    </div>
-                                                                </div>
-                                                                <div className='row'>
-                                                                    <div className='col-12 text-left'>
-                                                                        {singleItem.description}
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            :
-                                                            null}
-                                                    </div>
-                                                </div>
-                                                <div className='col-md-4'>
-                                                    <div className="container">
-                                                    {(singleItem.colTestIndex === "2") ?
-                                                            <div>
-                                                                <div className='row'>
-                                                                    <div className='col-8 text-left'>
-                                                                        {singleItem.title}
-                                                                    </div>
-                                                                    <div className='col-4 text-right'>
-                                                                        {singleItem.price}                                                
-                                                                    </div>
-                                                                </div>
-                                                                <div className='row'>
-                                                                    <div className='col-12 text-left'>
-                                                                        {singleItem.description}
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            :
-                                                            null}
-                                                    </div>
-                                                </div>
-                                                <div className='col-md-4'>
-                                                    <div className="container">
+                        <div className="col-md-12" key={item.id}>
+                            <h3>{item.category}</h3>
+                            <div className='container'>
+                                <div className='row'>
+                                    <div className='col-md'>
+                                        <div className="container">
+                                            {item.item.map(singleItem =>
+                                            <React.Fragment key={singleItem.id}>
+                                                {(singleItem.colTestIndex === "1") ?
+                                                    <div>
                                                         <div className='row'>
                                                             <div className='col-8 text-left'>
-                                                                {(singleItem.colTestIndex === "3") ? singleItem.title:null}
+                                                                <h5>{singleItem.title}</h5>
                                                             </div>
                                                             <div className='col-4 text-right'>
-                                                                {(singleItem.colTestIndex === "3") ? singleItem.price:null}                                                
+                                                                <h5>{singleItem.price}</h5>                                                
                                                             </div>
                                                         </div>
                                                         <div className='row'>
                                                             <div className='col-12 text-left'>
-                                                                {(singleItem.colTestIndex === "3") ? singleItem.description:null}
+                                                                <p>{singleItem.description}</p>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </div>
+                                                    :
+                                                null}
+                                            </React.Fragment>
                                             )}
                                         </div>
+                                    </div>
+                                    <div className='col-md'>
+                                        <div className="container">
+                                            {item.item.map(singleItem =>
+                                            <React.Fragment key={singleItem.id}>
+                                                {(singleItem.colTestIndex === "2") ?
+                                                    <div>
+                                                        <div className='row'>
+                                                            <div className='col-8 text-left'>
+                                                                <h5>{singleItem.title}</h5>
+                                                            </div>
+                                                            <div className='col-4 text-right'>
+                                                                <h5>{singleItem.price}</h5>                                                
+                                                            </div>
+                                                        </div>
+                                                        <div className='row'>
+                                                            <div className='col-12 text-left'>
+                                                                <p>{singleItem.description}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    :
+                                                null}
+                                            </React.Fragment>
+                                            )}
+                                        </div>
+                                    </div>
+                                    {(item.numCols === "3") ?
+                                        <div className='col-md'>
+                                            <div className="container">
+                                                {item.item.map(singleItem =>
+                                                <React.Fragment key={singleItem.id}>
+                                                    {(singleItem.colTestIndex === "3") ?
+                                                        <div>
+                                                            <div className='row'>
+                                                                <div className='col-8 text-left'>
+                                                                    <h5>{singleItem.title}</h5>
+                                                                </div>
+                                                                <div className='col-4 text-right'>
+                                                                    <h5>{singleItem.price}</h5>                                                
+                                                                </div>
+                                                            </div>
+                                                            <div className='row'>
+                                                                <div className='col-12 text-left'>
+                                                                    <p>{singleItem.description}</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        :
+                                                    null}
+                                                </React.Fragment>
+                                                )}
+                                            </div>
+                                        </div>
+                                    :null}
                                 </div>
                             </div>
-                    </div>
+                        </div>
                     )}
-                </div>
             </div>
         )
     }

@@ -2,6 +2,7 @@ export const MENU = [
     {
         id:0,
         category: 'Bevs',
+        numCols: "3",
         item: [
             {
                 id:0,
@@ -74,6 +75,7 @@ export const MENU = [
     {
         id:1,
         category: 'Food',
+        numCols: "2",
         item: [                                                     
             {
                 id:0,
@@ -108,27 +110,28 @@ export const MENU = [
                 title: 'Walnut Cranberry Apple Salad',
                 price: '12.00',
                 description: 'Greens served with walnuts, dried cranberries, apples, goat cheese and a pear vinaigrette',
-                colTestIndex: "1"
+                colTestIndex: "2"
             },
             {
                 id:5,
                 title: 'Lemon Chicken Salad',
                 price: '12.00',
                 description: 'Chicken Breast, Spinach, Avocado, Mozzarella, Sunflower Seeds and Lemon Vinaigrette',
-                colTestIndex: "1"
+                colTestIndex: "2"
             },
             {
                 id:6,
                 title: 'Avocado Toast',
                 price: '8.00',
                 description: 'Whole wheat multi-grain toast with smashed avocado, goat cheese, olive oil, salt and pepper',
-                colTestIndex: "1"
+                colTestIndex: "2"
             }
         ]
     },
     {
         id:2,
         category: 'Pastries',
+        numCols: "2",
         item: [                                                     
             {
                 id:0,
@@ -158,25 +161,25 @@ export const MENU = [
                 id:4,
                 title: 'Butter Croissant',
                 price: '2.25',
-                colTestIndex: "1"
+                colTestIndex: "2"
             },
             {
                 id:5,
                 title: 'Bear Claw',
                 price: '2.50',
-                colTestIndex: "1"
+                colTestIndex: "2"
             },
             {
                 id:6,
                 title: 'Cream Cheese Danish',
                 price: '2.50',
-                colTestIndex: "1"
+                colTestIndex: "2"
             },
             {
                 id:7,
                 title: 'Banana Bread',
                 price: '2.50',
-                colTestIndex: "1"
+                colTestIndex: "2"
             }
         ]
     }
