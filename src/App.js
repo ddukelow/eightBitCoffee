@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
 import './App.css';
+import Header from './components/HeaderComponent';
 import MenuItem from './components/MenuItem';
 import { MENU } from './shared/menu';
 
@@ -16,11 +16,7 @@ class App extends Component {
   render() {
     return (
         <div className="App">
-          <Navbar dark color="success">
-          <div className="container">
-              <NavbarBrand href="/">8-Bit Coffee</NavbarBrand>
-          </div>
-          </Navbar>
+          <Header />
           <MenuItem menu={this.state.menu} />
         </div>
     );
