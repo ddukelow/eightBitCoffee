@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
-import Header from './components/HeaderComponent';
-import MenuItem from './components/MenuItem';
+import MainComponent from './components/MainComponent';
 import { MENU } from './shared/menu';
+import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
+import './App.css';
 
 
 class App extends Component {
@@ -15,10 +15,12 @@ class App extends Component {
 
   render() {
     return (
+      <BrowserRouter>
         <div className="App">
-          <Header />
-          <MenuItem menu={this.state.menu} />
+          <MainComponent />
+          {/* <MenuItem menu={this.state.menu} /> */}
         </div>
+      </BrowserRouter>
     );
   }
 }
