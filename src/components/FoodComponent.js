@@ -8,10 +8,9 @@ class Menu extends Component {
 
     menuSlot(items) {
         return(
-            <div className="row">
+            <div>
                     {items.map( item => 
-                        <div className="col-md-12" key={item.id}>
-                            <div className='container text-center'>
+                            <div className='container text-center menu-section my-3' key={item.id}>
                                 <div className='row'>
                                     <div className='col-12 align-items-center'>
                                         <h3>{item.category}</h3>
@@ -100,15 +99,15 @@ class Menu extends Component {
                                     :null}
                                 </div>
                             </div>
-                        </div>
+                        
                     )}
-            </div>
+           </div> 
         )
     }
 
     render(){
         return (
-            <div className="container" id="menu">
+            <div id="menu">
                     {this.menuSlot(this.props.menu)}                
             </div>
         )

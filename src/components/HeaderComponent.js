@@ -22,11 +22,11 @@ class Header extends Component {
   render() {
     return (
         <React.Fragment>
-          <Navbar dark color="success" sticky="top" expand="md">
+          <Navbar sticky="top" expand="md">
             <div className="container">
               <NavbarToggler onClick={this.toggleNav} />
                 <Collapse isOpen={this.state.isNavOpen} navbar>
-                    <Nav navbar>
+                    <Nav className="justify-content-center" navbar>
                         <NavItem>
                             <NavLink className="nav-link" to="/shop">
                                 <i className="fa fa-shopping-bag fa-lg" /> Shop

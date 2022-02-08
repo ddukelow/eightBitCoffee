@@ -4,6 +4,7 @@ import Menu from './FoodComponent';
 import Home from './HomeComponent';
 import Shop from './ShopComponent';
 import { MENU } from '../shared/menu';
+import { SHOP } from '../shared/shop';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 
 
@@ -12,7 +13,8 @@ class Main extends Component {
     constructor(props) {
         super(props);
         this.state = {
-          menu: MENU
+          menu: MENU,
+          shop: SHOP
         };
       }    
 
@@ -22,7 +24,7 @@ class Main extends Component {
             <div>
                 <Header />
                 <Switch>
-                    <Route path='/shop' component={Shop} />
+                    <Route path='/shop' render={() => <Shop shop={this.state.shop} />} />
                     <Route path='/home' component={Home} />
                     <Route exact path='/food' render={() => <Menu menu={this.state.menu} />} />
                     <Redirect to='/home' />

@@ -20,8 +20,46 @@ body {
   font-weight: bold;
 }
 
-.navLink {
+#menu h5 {
+  font-weight: bolder;
+}
+
+#menu p {
+  font-weight: 600;
+}
+
+.menu-layout {
+  color: black;
+}
+
+.menu-section {
+  border: tan 1px solid;
+  background-color: rgba(245, 245, 220, 0.5);
+}
+
+.nav-link {
   color: rgb(70, 70, 70);
+}
+
+.navbar {
+  background-color: #72bb53;
+}
+
+.shop-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.shop-8Bit-btn {
+  color: transparent;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.txt-120 {
+  font-size: 120%;
 }
 
 /* .row {
