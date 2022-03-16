@@ -31,11 +31,12 @@ class Menu extends Component {
                                                                 <h5>{singleItem.price}</h5>                                                
                                                             </div>
                                                         </div>
-                                                        <div className='row'>
-                                                            <div className='col-12 text-left'>
-                                                                <p>{singleItem.description}</p>
-                                                            </div>
-                                                        </div>
+                                                        {(singleItem.description) ? 
+                                                            <div className='row'>
+                                                                <div className='col-12 text-left'>
+                                                                    <p>{singleItem.description}</p>
+                                                                </div>
+                                                            </div>:null}
                                                     </div>
                                                     :
                                                 null}
@@ -57,11 +58,12 @@ class Menu extends Component {
                                                                 <h5>{singleItem.price}</h5>                                                
                                                             </div>
                                                         </div>
-                                                        <div className='row'>
-                                                            <div className='col-12 text-left'>
-                                                                <p>{singleItem.description}</p>
-                                                            </div>
-                                                        </div>
+                                                        {(singleItem.description) ?
+                                                            <div className='row'>
+                                                                <div className='col-12 text-left'>
+                                                                    <p>{singleItem.description}</p>
+                                                                </div>
+                                                            </div>:null}
                                                     </div>
                                                     :
                                                 null}
@@ -84,11 +86,12 @@ class Menu extends Component {
                                                                     <h5>{singleItem.price}</h5>                                                
                                                                 </div>
                                                             </div>
-                                                            <div className='row'>
-                                                                <div className='col-12 text-left'>
-                                                                    <p>{singleItem.description}</p>
-                                                                </div>
-                                                            </div>
+                                                            {(singleItem.description) ?
+                                                                <div className='row'>
+                                                                    <div className='col-12 text-left'>
+                                                                        <p>{singleItem.description}</p>
+                                                                    </div>
+                                                                </div>:null}
                                                         </div>
                                                         :
                                                     null}

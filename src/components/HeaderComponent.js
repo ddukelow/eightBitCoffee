@@ -22,27 +22,27 @@ class Header extends Component {
   render() {
     return (
         <React.Fragment>
-          <Navbar sticky="top" expand="md">
+          <Navbar light sticky="top" expand="md">
             <div className="container">
               <NavbarToggler onClick={this.toggleNav} />
                 <Collapse isOpen={this.state.isNavOpen} navbar>
-                    <Nav className="justify-content-center" navbar>
-                        <NavItem>
-                            <NavLink className="nav-link" to="/shop">
-                                <i className="fa fa-shopping-bag fa-lg" /> Shop
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink className="nav-link" to="/home">
-                                <i className="fa fa-home fa-lg" /> Home
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink className="nav-link" to="/food">
-                                <i className="fa fa-coffee fa-lg" /> Food
-                            </NavLink>
-                        </NavItem>
-                    </Nav>
+                  <Nav className="mx-auto" navbar>
+                    <NavItem>
+                        <NavLink className="nav-link mx-2" to="/shop">
+                            <i className="fa fa-shopping-bag fa-lg" /> Shop
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className="nav-link mx-2" to="/home">
+                            <i className="fa fa-home fa-lg" /> Home
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className="nav-link mx-2" to="/food">
+                            <i className="fa fa-coffee fa-lg" /> Food
+                        </NavLink>
+                    </NavItem>
+                  </Nav>
                 </Collapse>
             </div>
           </Navbar>
